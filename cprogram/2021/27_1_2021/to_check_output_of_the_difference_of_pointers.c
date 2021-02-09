@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
-{	/* to subtract one pointer to another that points an array */	
+{	/* to subtract one pointer to another that points to an array */	
 	int arr[5] = { 100,45,667,9,21};
 	int* aptr = arr;
 	int* arrptr = &arr[4];
